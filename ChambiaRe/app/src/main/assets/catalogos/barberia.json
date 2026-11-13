@@ -1,0 +1,55 @@
+{
+  "sector": "barberia",
+  "version": 1,
+  "locale": "es-MX",
+  "items": [
+    {
+      "id": "barberia_corte_clásico",
+      "name": "Corte clásico",
+      "category": "Cortes",
+      "unit": ""
+    },
+    {
+      "id": "barberia_corte_degradado",
+      "name": "Corte degradado",
+      "category": "Cortes",
+      "unit": ""
+    },
+    {
+      "id": "barberia_corte_infantil",
+      "name": "Corte infantil",
+      "category": "Cortes",
+      "unit": ""
+    },
+    {
+      "id": "barberia_arreglo_de_barba",
+      "name": "Arreglo de barba",
+      "category": "Cortes",
+      "unit": ""
+    },
+    {
+      "id": "barberia_corte_y_barba",
+      "name": "Corte y barba",
+      "category": "Paquetes",
+      "unit": ""
+    },
+    {
+      "id": "barberia_corte_y_lavado",
+      "name": "Corte y lavado",
+      "category": "Paquetes",
+      "unit": ""
+    },
+    {
+      "id": "barberia_diseño_de_cejas",
+      "name": "Diseño de cejas",
+      "category": "Otros",
+      "unit": ""
+    },
+    {
+      "id": "barberia_lavado_de_cabello",
+      "name": "Lavado de cabello",
+      "category": "Otros",
+      "unit": ""
+    }
+  ]
+}

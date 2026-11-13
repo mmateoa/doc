@@ -1,0 +1,49 @@
+{
+  "sector": "tortilleria",
+  "version": 1,
+  "locale": "es-MX",
+  "items": [
+    {
+      "id": "tortilleria_tortilla_de_maíz",
+      "name": "Tortilla de maíz",
+      "category": "Productos",
+      "unit": "kg"
+    },
+    {
+      "id": "tortilleria_masa_de_maíz",
+      "name": "Masa de maíz",
+      "category": "Productos",
+      "unit": "kg"
+    },
+    {
+      "id": "tortilleria_totopos",
+      "name": "Totopos",
+      "category": "Productos",
+      "unit": ""
+    },
+    {
+      "id": "tortilleria_tostadas",
+      "name": "Tostadas",
+      "category": "Productos",
+      "unit": ""
+    },
+    {
+      "id": "tortilleria_tortillas_de_harina",
+      "name": "Tortillas de harina",
+      "category": "Productos",
+      "unit": ""
+    },
+    {
+      "id": "tortilleria_tortilla_azul",
+      "name": "Tortilla azul",
+      "category": "Productos",
+      "unit": "kg"
+    },
+    {
+      "id": "tortilleria_masa_para_tamales",
+      "name": "Masa para tamales",
+      "category": "Productos",
+      "unit": ""
+    }
+  ]
+}

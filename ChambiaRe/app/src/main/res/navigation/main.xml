@@ -1,0 +1,26 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main" app:startDestination="@id/home">
+    <fragment android:id="@+id/home" android:name="mx.chambia.app.HomeFragment">
+        <argument android:name="page" app:argType="string" android:defaultValue="inicio" />
+    </fragment>
+    <fragment android:id="@+id/catalog" android:name="mx.chambia.app.CatalogFragment">
+        <argument android:name="page" app:argType="string" android:defaultValue="catalogo" />
+    </fragment>
+    <fragment android:id="@+id/history" android:name="mx.chambia.app.HistoryFragment">
+        <argument android:name="page" app:argType="string" android:defaultValue="publicaciones" />
+    </fragment>
+    <fragment android:id="@+id/designs" android:name="mx.chambia.app.DesignsFragment">
+        <argument android:name="page" app:argType="string" android:defaultValue="disenos" />
+    </fragment>
+    <fragment android:id="@+id/prepare" android:name="mx.chambia.app.PreparationFragment">
+        <argument android:name="page" app:argType="string" android:defaultValue="preparar" />
+    </fragment>
+    <fragment android:id="@+id/preview" android:name="mx.chambia.app.PreviewFragment">
+        <argument android:name="page" app:argType="string" android:defaultValue="vista" />
+    </fragment>
+    <fragment android:id="@+id/accessibility" android:name="mx.chambia.app.AccessibilityFragment">
+        <argument android:name="page" app:argType="string" android:defaultValue="accesible" />
+    </fragment>
+    <fragment android:id="@+id/export" android:name="mx.chambia.app.ExportFragment">
+        <argument android:name="page" app:argType="string" android:defaultValue="exportar" />
+    </fragment>
+</navigation>

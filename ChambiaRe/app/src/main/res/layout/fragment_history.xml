@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/publications_title" android:textSize="24sp" android:textStyle="bold" android:textColor="@color/text_primary" />
+    <com.google.android.material.button.MaterialButtonToggleGroup android:id="@+id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content" app:singleSelection="true" app:selectionRequired="true" app:checkedButton="@id/generated">
+        <com.google.android.material.button.MaterialButton android:id="@+id/drafts" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/drafts_tab" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/generated" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/generated_tab" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+    <TextView android:id="@+id/empty" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/publication_empty" android:textSize="16sp" android:paddingVertical="16dp" android:textColor="@color/text_secondary" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/publications" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/create" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/prepare_title" />
+</LinearLayout>

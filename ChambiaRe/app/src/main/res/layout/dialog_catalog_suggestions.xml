@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/search_hint">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/search" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner android:id="@+id/category" android:layout_width="match_parent" android:layout_height="48dp" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/select_visible" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/select_visible" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/items" android:layout_width="match_parent" android:layout_height="280dp" />
+</LinearLayout>

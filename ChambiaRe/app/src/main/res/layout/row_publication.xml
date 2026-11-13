@@ -1,0 +1,9 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginVertical="4dp" app:cardCornerRadius="12dp" app:strokeColor="@color/outline" app:strokeWidth="1dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/surface">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="12dp">
+        <mx.chambia.app.ui.PreviewSurface android:id="@+id/thumbnail" android:layout_width="match_parent" android:layout_height="100dp" android:importantForAccessibility="no"/>
+        <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:textStyle="bold" android:textColor="@color/text_primary" />
+        <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:textColor="@color/text_secondary" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/open" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/open" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/actions" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/offer_actions" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

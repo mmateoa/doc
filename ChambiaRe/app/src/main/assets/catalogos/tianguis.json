@@ -1,0 +1,85 @@
+{
+  "sector": "tianguis",
+  "version": 1,
+  "locale": "es-MX",
+  "items": [
+    {
+      "id": "tianguis_blusas_bordadas",
+      "name": "Blusas bordadas",
+      "category": "Ropa",
+      "unit": ""
+    },
+    {
+      "id": "tianguis_playeras",
+      "name": "Playeras",
+      "category": "Ropa",
+      "unit": ""
+    },
+    {
+      "id": "tianguis_pantalones",
+      "name": "Pantalones",
+      "category": "Ropa",
+      "unit": ""
+    },
+    {
+      "id": "tianguis_vestidos",
+      "name": "Vestidos",
+      "category": "Ropa",
+      "unit": ""
+    },
+    {
+      "id": "tianguis_sudaderas",
+      "name": "Sudaderas",
+      "category": "Ropa",
+      "unit": ""
+    },
+    {
+      "id": "tianguis_sandalias",
+      "name": "Sandalias",
+      "category": "Accesorios",
+      "unit": ""
+    },
+    {
+      "id": "tianguis_bolsas_artesanales",
+      "name": "Bolsas artesanales",
+      "category": "Accesorios",
+      "unit": ""
+    },
+    {
+      "id": "tianguis_sombreros",
+      "name": "Sombreros",
+      "category": "Accesorios",
+      "unit": ""
+    },
+    {
+      "id": "tianguis_collares",
+      "name": "Collares",
+      "category": "Accesorios",
+      "unit": ""
+    },
+    {
+      "id": "tianguis_pulseras",
+      "name": "Pulseras",
+      "category": "Accesorios",
+      "unit": ""
+    },
+    {
+      "id": "tianguis_plantas",
+      "name": "Plantas",
+      "category": "Hogar",
+      "unit": ""
+    },
+    {
+      "id": "tianguis_macetas",
+      "name": "Macetas",
+      "category": "Hogar",
+      "unit": ""
+    },
+    {
+      "id": "tianguis_trastes",
+      "name": "Trastes",
+      "category": "Hogar",
+      "unit": ""
+    }
+  ]
+}

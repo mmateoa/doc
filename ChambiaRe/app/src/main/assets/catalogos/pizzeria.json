@@ -1,0 +1,85 @@
+{
+  "sector": "pizzeria",
+  "version": 1,
+  "locale": "es-MX",
+  "items": [
+    {
+      "id": "pizzeria_pepperoni",
+      "name": "Pepperoni",
+      "category": "Pizzas",
+      "unit": ""
+    },
+    {
+      "id": "pizzeria_hawaiana",
+      "name": "Hawaiana",
+      "category": "Pizzas",
+      "unit": ""
+    },
+    {
+      "id": "pizzeria_mexicana",
+      "name": "Mexicana",
+      "category": "Pizzas",
+      "unit": ""
+    },
+    {
+      "id": "pizzeria_cuatro_quesos",
+      "name": "Cuatro quesos",
+      "category": "Pizzas",
+      "unit": ""
+    },
+    {
+      "id": "pizzeria_vegetariana",
+      "name": "Vegetariana",
+      "category": "Pizzas",
+      "unit": ""
+    },
+    {
+      "id": "pizzeria_margarita",
+      "name": "Margarita",
+      "category": "Pizzas",
+      "unit": ""
+    },
+    {
+      "id": "pizzeria_especial_de_la_casa",
+      "name": "Especial de la casa",
+      "category": "Pizzas",
+      "unit": ""
+    },
+    {
+      "id": "pizzeria_papas_gajo",
+      "name": "Papas gajo",
+      "category": "Acompañamientos",
+      "unit": ""
+    },
+    {
+      "id": "pizzeria_pan_de_ajo",
+      "name": "Pan de ajo",
+      "category": "Acompañamientos",
+      "unit": ""
+    },
+    {
+      "id": "pizzeria_alitas",
+      "name": "Alitas",
+      "category": "Acompañamientos",
+      "unit": ""
+    },
+    {
+      "id": "pizzeria_aderezo_extra",
+      "name": "Aderezo extra",
+      "category": "Acompañamientos",
+      "unit": ""
+    },
+    {
+      "id": "pizzeria_refresco",
+      "name": "Refresco",
+      "category": "Bebidas",
+      "unit": ""
+    },
+    {
+      "id": "pizzeria_agua_natural",
+      "name": "Agua natural",
+      "category": "Bebidas",
+      "unit": ""
+    }
+  ]
+}

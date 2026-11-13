@@ -1,0 +1,151 @@
+{
+  "sector": "fonda",
+  "version": 1,
+  "locale": "es-MX",
+  "items": [
+    {
+      "id": "fonda_pollo_en_mole",
+      "name": "Pollo en mole",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_enchiladas_verdes",
+      "name": "Enchiladas verdes",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_enchiladas_rojas",
+      "name": "Enchiladas rojas",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_milanesa_de_pollo",
+      "name": "Milanesa de pollo",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_milanesa_de_res",
+      "name": "Milanesa de res",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_chicharrón_en_salsa_verde",
+      "name": "Chicharrón en salsa verde",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_chicharrón_en_salsa_roja",
+      "name": "Chicharrón en salsa roja",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_chiles_rellenos",
+      "name": "Chiles rellenos",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_albóndigas",
+      "name": "Albóndigas",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_picadillo",
+      "name": "Picadillo",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_bistec_encebollado",
+      "name": "Bistec encebollado",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_pollo_en_salsa_verde",
+      "name": "Pollo en salsa verde",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_mole_de_olla",
+      "name": "Mole de olla",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_tinga_de_pollo",
+      "name": "Tinga de pollo",
+      "category": "Guisados",
+      "unit": ""
+    },
+    {
+      "id": "fonda_arroz_rojo",
+      "name": "Arroz rojo",
+      "category": "Guarniciones",
+      "unit": ""
+    },
+    {
+      "id": "fonda_arroz_blanco",
+      "name": "Arroz blanco",
+      "category": "Guarniciones",
+      "unit": ""
+    },
+    {
+      "id": "fonda_espagueti",
+      "name": "Espagueti",
+      "category": "Guarniciones",
+      "unit": ""
+    },
+    {
+      "id": "fonda_sopa_de_pasta",
+      "name": "Sopa de pasta",
+      "category": "Guarniciones",
+      "unit": ""
+    },
+    {
+      "id": "fonda_frijoles",
+      "name": "Frijoles",
+      "category": "Guarniciones",
+      "unit": ""
+    },
+    {
+      "id": "fonda_tortillas",
+      "name": "Tortillas",
+      "category": "Guarniciones",
+      "unit": ""
+    },
+    {
+      "id": "fonda_agua_de_jamaica",
+      "name": "Agua de jamaica",
+      "category": "Bebidas",
+      "unit": ""
+    },
+    {
+      "id": "fonda_agua_de_horchata",
+      "name": "Agua de horchata",
+      "category": "Bebidas",
+      "unit": ""
+    },
+    {
+      "id": "fonda_agua_de_limón",
+      "name": "Agua de limón",
+      "category": "Bebidas",
+      "unit": ""
+    },
+    {
+      "id": "fonda_café_de_olla",
+      "name": "Café de olla",
+      "category": "Bebidas",
+      "unit": ""
+    }
+  ]
+}

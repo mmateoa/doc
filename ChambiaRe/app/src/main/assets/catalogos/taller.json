@@ -1,0 +1,97 @@
+{
+  "sector": "taller",
+  "version": 1,
+  "locale": "es-MX",
+  "items": [
+    {
+      "id": "taller_cambio_de_aceite",
+      "name": "Cambio de aceite",
+      "category": "Mantenimiento",
+      "unit": ""
+    },
+    {
+      "id": "taller_afinación_básica",
+      "name": "Afinación básica",
+      "category": "Mantenimiento",
+      "unit": ""
+    },
+    {
+      "id": "taller_afinación_mayor",
+      "name": "Afinación mayor",
+      "category": "Mantenimiento",
+      "unit": ""
+    },
+    {
+      "id": "taller_revisión_de_niveles",
+      "name": "Revisión de niveles",
+      "category": "Mantenimiento",
+      "unit": ""
+    },
+    {
+      "id": "taller_cambio_de_filtros",
+      "name": "Cambio de filtros",
+      "category": "Mantenimiento",
+      "unit": ""
+    },
+    {
+      "id": "taller_revisión_de_frenos",
+      "name": "Revisión de frenos",
+      "category": "Frenos",
+      "unit": ""
+    },
+    {
+      "id": "taller_cambio_de_balatas",
+      "name": "Cambio de balatas",
+      "category": "Frenos",
+      "unit": ""
+    },
+    {
+      "id": "taller_rectificación_de_discos",
+      "name": "Rectificación de discos",
+      "category": "Frenos",
+      "unit": ""
+    },
+    {
+      "id": "taller_diagnóstico_con_escáner",
+      "name": "Diagnóstico con escáner",
+      "category": "Diagnóstico",
+      "unit": ""
+    },
+    {
+      "id": "taller_revisión_eléctrica",
+      "name": "Revisión eléctrica",
+      "category": "Diagnóstico",
+      "unit": ""
+    },
+    {
+      "id": "taller_alineación",
+      "name": "Alineación",
+      "category": "Llantas",
+      "unit": ""
+    },
+    {
+      "id": "taller_balanceo",
+      "name": "Balanceo",
+      "category": "Llantas",
+      "unit": ""
+    },
+    {
+      "id": "taller_rotación_de_llantas",
+      "name": "Rotación de llantas",
+      "category": "Llantas",
+      "unit": ""
+    },
+    {
+      "id": "taller_cambio_de_amortiguadores",
+      "name": "Cambio de amortiguadores",
+      "category": "Mecánica",
+      "unit": ""
+    },
+    {
+      "id": "taller_cambio_de_batería",
+      "name": "Cambio de batería",
+      "category": "Mecánica",
+      "unit": ""
+    }
+  ]
+}

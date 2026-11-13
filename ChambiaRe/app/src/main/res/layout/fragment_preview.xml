@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/preview_title" android:textColor="@color/text_primary" android:textSize="24sp" android:textStyle="bold" />
+    <Spinner android:id="@+id/format" android:layout_width="match_parent" android:layout_height="56dp" android:contentDescription="@string/preview_format" />
+    <mx.chambia.app.ui.PreviewSurface android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="wrap_content" android:clickable="true" android:focusable="true" />
+    <TextView android:id="@+id/page" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:textSize="16sp" android:textColor="@color/text_secondary" android:padding="8dp" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/previous" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/previous_page" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/next" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/next_page" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/preview_hint" android:textColor="@color/text_secondary" android:textSize="14sp" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/edit" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/edit_content" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/design" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/change_design" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/accessibility" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/accessibility_title" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/generate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/generate_materials" />
+</LinearLayout>

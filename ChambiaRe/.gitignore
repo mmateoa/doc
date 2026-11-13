@@ -1,0 +1,15 @@
+# Local SDK, IDE and build output
+local.properties
+.idea/
+.gradle/
+.gradle-local/
+.android-local/
+.android/
+.verification/
+build/
+app/build/
+*.log
+*.jks
+*.keystore
+
+.audit/

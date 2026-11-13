@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+    <mx.chambia.app.ui.PreviewSurface android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="220dp" />
+    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/favorite" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/favorite" />
+    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/contrast" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/high_contrast" />
+</LinearLayout>

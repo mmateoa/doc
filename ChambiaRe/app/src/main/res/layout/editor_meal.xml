@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <com.google.android.material.switchmaterial.SwitchMaterial android:id="@+id/enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/meal_enable" />
+    <LinearLayout android:id="@+id/fields" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputLayout android:id="@+id/price_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/meal_price">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/price" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/without_prices" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/meal_no_prices" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/sections" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/add_section" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/add_meal_section"/>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/meal_notes">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/notes" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textMultiLine" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</LinearLayout>

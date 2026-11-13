@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/export_title" android:textSize="24sp" android:textStyle="bold" android:textColor="@color/text_primary" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/destination_help" android:textSize="16sp" android:textColor="@color/text_secondary" android:layout_marginVertical="12dp" />
+    <Spinner android:id="@+id/destination" android:layout_width="match_parent" android:layout_height="56dp" />
+    <TextView android:id="@+id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:textColor="@color/text_primary" android:layout_marginVertical="12dp" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/advanced" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/advanced_options" />
+    <Spinner android:id="@+id/format" android:layout_width="match_parent" android:layout_height="56dp" android:visibility="gone" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@+id/progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" android:visibility="gone" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/local" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/save_phone" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/share" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/share_apps" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/usb" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/save_usb" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/audio" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/accessibility_title" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/cancel" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cancel_export" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/export_help" android:textSize="14sp" android:textColor="@color/text_secondary" />
+</LinearLayout>

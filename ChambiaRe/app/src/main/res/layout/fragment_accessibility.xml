@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/accessibility_title" android:textSize="24sp" android:textStyle="bold" android:textColor="@color/text_primary" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/accessible_help" android:textSize="16sp" android:textColor="@color/text_secondary" android:layout_marginVertical="12dp" />
+    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/contrast" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/high_contrast" />
+    <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/voice" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/audio_export_option" />
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/review_script">
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/script" android:layout_width="match_parent" android:layout_height="wrap_content" android:minLines="5" android:inputType="textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton android:id="@+id/save" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/save_script" />
+    <Spinner android:id="@+id/speed" android:layout_width="match_parent" android:layout_height="56dp" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/choose_voice" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/choose_voice" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/listen" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/listen" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/stop" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/stop_audio" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/audio" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/generate_audio" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/text" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/share_text" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/back" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/preview_action" />
+</LinearLayout>

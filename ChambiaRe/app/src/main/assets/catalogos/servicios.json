@@ -1,0 +1,73 @@
+{
+  "sector": "servicios",
+  "version": 1,
+  "locale": "es-MX",
+  "items": [
+    {
+      "id": "servicios_reparación_de_fugas",
+      "name": "Reparación de fugas",
+      "category": "Plomería",
+      "unit": ""
+    },
+    {
+      "id": "servicios_instalación_de_llaves",
+      "name": "Instalación de llaves",
+      "category": "Plomería",
+      "unit": ""
+    },
+    {
+      "id": "servicios_destape_de_drenaje",
+      "name": "Destape de drenaje",
+      "category": "Plomería",
+      "unit": ""
+    },
+    {
+      "id": "servicios_instalación_de_contactos",
+      "name": "Instalación de contactos",
+      "category": "Electricidad",
+      "unit": ""
+    },
+    {
+      "id": "servicios_reparación_de_luminarias",
+      "name": "Reparación de luminarias",
+      "category": "Electricidad",
+      "unit": ""
+    },
+    {
+      "id": "servicios_revisión_eléctrica",
+      "name": "Revisión eléctrica",
+      "category": "Electricidad",
+      "unit": ""
+    },
+    {
+      "id": "servicios_limpieza_de_hogar",
+      "name": "Limpieza de hogar",
+      "category": "Limpieza",
+      "unit": ""
+    },
+    {
+      "id": "servicios_limpieza_de_oficinas",
+      "name": "Limpieza de oficinas",
+      "category": "Limpieza",
+      "unit": ""
+    },
+    {
+      "id": "servicios_pintura",
+      "name": "Pintura",
+      "category": "Otros",
+      "unit": ""
+    },
+    {
+      "id": "servicios_jardinería",
+      "name": "Jardinería",
+      "category": "Otros",
+      "unit": ""
+    },
+    {
+      "id": "servicios_reparaciones_generales",
+      "name": "Reparaciones generales",
+      "category": "Otros",
+      "unit": ""
+    }
+  ]
+}

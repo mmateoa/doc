@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/shell" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/background">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@+id/task_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:background="@color/surface" app:titleTextColor="@color/text_primary" />
+    <com.google.android.material.button.MaterialButton android:id="@+id/business_switcher" style="@style/Widget.Chambia.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16dp" android:contentDescription="@string/change_business" />
+    <androidx.core.widget.NestedScrollView android:id="@+id/scroll" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
+        <LinearLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp" />
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:id="@+id/task_actions" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16dp" android:background="@color/surface" android:visibility="gone" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@+id/navigation" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72dp" android:background="@color/surface" app:menu="@menu/root_navigation" app:labelVisibilityMode="labeled" app:itemHorizontalTranslationEnabled="false" app:itemIconTint="@color/nav_tint" app:itemTextColor="@color/nav_tint" />
+</LinearLayout>
